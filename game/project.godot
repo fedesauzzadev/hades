@@ -1,0 +1,20 @@
+; Engine configuration file.
+; Katabasis — roguelike de acción inspirado en Hades (proyecto educativo).
+
+config_version=5
+
+[application]
+
+config/name="Katabasis"
+config/description="Clon educativo de mecánicas de Hades. Assets originales/placeholder."
+run/main_scene="res://scenes/Main.tscn"
+config/features=PackedStringArray("4.7", "C#")
+config/icon="res://icon.svg"
+
+[dotnet]
+
+project/assembly_name="Katabasis"
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0

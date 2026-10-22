@@ -1,0 +1,15 @@
+# Godot
+game/.godot/
+game/*.translation
+
+# .NET
+game/bin/
+game/obj/
+*.user
+*.suo
+.vs/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
